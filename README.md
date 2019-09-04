@@ -1,20 +1,16 @@
 <h1 align="center">NodeChan</h1>
 
-Features
-------------
-* Real-time content updates - 4chanX / Discord like content flow
-* Fully-featured REST API
-* Full Markdown support
-* Theme support - use a night theme (or anyother variation your want)
-* Excellent attachment support - attach text, every kind of video under the sun, and most image formats
-  you can think of, WebM included.
-
-
 Installation
 ------------
-For node.js + npm
-https://wsvincent.com/install-node-js-npm-windows/
+Get [node.js + npm](https://wsvincent.com/install-node-js-npm-windows/).
 
+1. Clone git repo
+
+2. Inside the NodeChan folder
+```bash
+node app.js
+```
+You can access the site at your [localhost:3000](http://localhost:3000/).
 
 Planned
 ------------
