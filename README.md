@@ -2,15 +2,13 @@
 
 Installation
 ------------
-Get [node.js + npm](https://wsvincent.com/install-node-js-npm-windows/).
+Get [node.js + npm](https://wsvincent.com/install-node-js-npm-windows/)
 
-1. Clone git repo
+After installing dependancies, go into the NodeChan folder and run:
 
-2. Inside the NodeChan folder
-```bash
-node app.js
-```
-You can access the site at your [localhost:3000](http://localhost:3000/).
+	node app.js
+	
+You can access the site at your [localhost:3000](http://localhost:3000/)
 
 Planned
 ------------
