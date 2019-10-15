@@ -2,18 +2,10 @@
 
 About
 -----
-Restfull API with simple filehosting
+Node/Express app
 
-Installing node
----------------
-Get [node.js + npm](https://wsvincent.com/install-node-js-npm-windows/)
-
-After installing dependancies, go into the NodeChan folder and run:
-
-	node app.js
-	
-You can access the site at your [localhost:3000](http://localhost:3000/)
 
 Planned
 -------
-Chatbot
+- Express validation
+- Image hosting
