@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1 #{title}
+	ul.list-group
+		each thread, i in threads
+			li.list-group-item
+				a(href="/thread/"+thread._id)= thread.name

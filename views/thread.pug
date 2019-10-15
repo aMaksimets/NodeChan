@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h1= thread.name
+	h5 Posted by #{thread.pname}
+	p= thread.body
+	hr
+	a.btn.btn-default(href='/thread/edit/'+thread._id) Edit
+	a.btn.btn-danger.delete-thread(href='#',data-id=thread._id) Delete
+	a.btn.btn-default(href='/thread/repond/'+thread._id) Respond

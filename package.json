@@ -1,22 +1,21 @@
 {
   "name": "nodechan",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">NodeChan</h1>",
-  "main": "app.js",
+  "description": "node based imageboard",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blkhood/NodeChan.git"
-  },
-  "author": "",
+  "author": "alex",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/blkhood/NodeChan/issues"
-  },
-  "homepage": "https://github.com/blkhood/NodeChan#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.4",
+    "pug": "^2.0.4"
   }
 }

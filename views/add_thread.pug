@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	h1 #{title}
+	form(method='POST', action='/threads/add')
+		#form-group
+			label Name
+			input.form-control(name='name', type='text')
+		#form-group
+			label Poster name:
+			input.form-control(name='pname', type='text')
+		#form-group
+			label Body:
+			textarea.form-control(name='body')
+		#form-group
+			label Board:
+			select(name='board')
+				option Programming
+				option Mathematics
+		br
+		input.btn.btn-primary(type='submit', value='Submit')
