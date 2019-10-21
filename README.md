@@ -8,4 +8,6 @@ Node/Express app
 Planned
 -------
 - Express validation
+- account db > login
 - Image hosting
+- ...
